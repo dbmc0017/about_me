@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+
+}
+h1 {
+    color: #A64AC9;
+}    
+#container {
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    /*this will change the top margin to be 20px
+    and the padding on all sides to be 20px */
+    margin-top: 20px;
+    padding: 20px;
+    border-width: 20px;
+    border-color: blue;
+
+    font-family: 'Asap', sans-serif;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.left-col{
+    float: left;
+}
+.right-col{
+    float: right;    
+    width:100px;
+    height:50px;    
+}
+.clearFix{
+    clear: both;
+}
+
